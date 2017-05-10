@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.offset.json">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <meta-data
+        android:name="com.google.android.gms.vision.DEPENDENCIES"
+        android:value="barcode" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pura"
+        android:label="Personalia"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AdminDataPegawai.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDataPegawai.PageView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Other.Login_Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".AdminDataPegawai.AdminPegawai"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDataPegawai.AdminInsertPegawai"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Other.AdminMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDataPegawai.AdminUpdatePegawai"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDataIjin.AdminIjin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDataIjin.AdminSearchIzin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDataIjin.PageViewIzin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDataIjin.AdminInsertIjin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDataIjin.AdminDeleteIjin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDataIjin.AdminSearchUpdateIjin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDataIjin.AdminUpdateIjin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminLiburNasional.ViewLibur"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminLiburNasional.InsertLibur"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminLiburNasional.UpdateLibur"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAbsen.SearchAbsen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAbsen.PageViewAbsen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAbsen.PageViewDetil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAbsen.AdminAbsen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAbsen.DeleteAbsen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAbsen.InsertAbsen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAbsen.SearchUpdateAbsen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAbsen.UpdateAbsen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User.SearchAbsenUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User.ViewAbsenUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User.UserMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User.UserAbsenMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User.ViewLemburUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Other.SearchPayroll"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Other.ViewPayroll"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAbsen.AdminAbsenMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Other.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Other.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".AdminDataPegawai.ListPegawai"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Other.RecapPayroll" />
+        <activity android:name=".User.UserSetting" />
+        <activity android:name=".Other.SettingAkun"></activity>
+    </application>
+
+</manifest>

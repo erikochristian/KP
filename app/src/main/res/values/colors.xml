@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary2">#B5C689</color>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#107896</color>
+    <color name="buttonColor">#dc1976d2</color>
+    <color name="buttonColor3">#1976d2</color>
+    <color name="transparent">#001976d2</color>
+    <color name="red">#c8d71118</color>
+
+
+    <color name="buttonColor2">#107896</color>
+    <color name="splashbackground">#ffffff</color>
+
+    <color name="buttontextColor">#cdf0fafd</color>
+    <color name="textColor">#a0000000</color>
+    <color name="separator">#be000000</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+</resources>
